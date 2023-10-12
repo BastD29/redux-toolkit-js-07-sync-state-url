@@ -9,11 +9,11 @@ import Filter from "./components/Filter";
 import { users } from "../../../data/users";
 
 // hooks
-import useFilteredUsersGlobalState from "../../../hooks/useFilteredUsersGlobalState";
+import useFilteredUsersGlobalState3 from "../../../hooks/useFilteredUsersGlobalState3";
 
 export default function Test4GlobalsState() {
   // prettier-ignore
-  const { filteredUsers, handleFilterChange, handleSearchChange, searchTerm, filters } = useFilteredUsersGlobalState(users);
+  const { filteredUsers, handleFilterChange, handleSearchChange, searchTerm, filters } = useFilteredUsersGlobalState3(users);
 
   return (
     <>
